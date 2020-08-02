@@ -1,0 +1,75 @@
+body {
+    background-color: #eeeeee;
+}
+
+.container {
+    background-image: url(../img/landing-page/4386.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position-x: -64px;
+    background-position-y: -68px; */
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.container .stiky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.container h1 {
+    font-size: 3rem;
+}
+
+/* .container button.right {
+    margin-right: -378px;
+} */
+
+.container .overlay {
+    background-color: rgba(0, 0, 0, .5);
+    color: #ffffff;
+    width: 62%;
+}
+
+.container .mt-150 {
+    margin-top: 150px;
+}
+
+.container .bg {
+    background-color: rgba(0, 123, 255, .9);
+    border-top-left-radius: 95px;
+    padding: 20px;
+    width: 70%;
+    margin-left: 32%;
+}
+
+.bg .inline-block {
+    display: inline-block;
+}
+
+.bg .inline-block span {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.bg .get-cupoun {
+    padding: 10px 25px;
+    border: none;
+}
+
+.overlay-white {
+    background-color: rgba(255, 255, 255, .6);
+    padding: 10px 0;
+}
+
+.mt-5 .jc-evenly {
+    justify-content: space-evenly;
+}
+
+.mb-3 .btn-danger {
+    background-color: #f68c98;
+    border-color: #f68c98;
+}
